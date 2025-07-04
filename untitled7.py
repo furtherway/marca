@@ -10,7 +10,7 @@ Original file is located at
 """
 
 # 1. Instalar dependencias
-!pip install python-Levenshtein pandas jellyfish scikit-learn
+# !pip install python-Levenshtein pandas jellyfish scikit-learn
 
 # 2. Imports
 import random
@@ -88,7 +88,7 @@ print("Classification Report:\n", classification_report(y_test, y_pred, digits=4
 """# 2. Modelo de Predicción Xboost (Confusión)"""
 
 # En Colab, instala dependencias si no lo has hecho:
-!pip install python-Levenshtein jellyfish xgboost scikit-learn pandas numpy ipywidgets --quiet
+# !pip install python-Levenshtein jellyfish xgboost scikit-learn pandas numpy ipywidgets --quiet
 
 import pandas as pd
 import numpy as np
